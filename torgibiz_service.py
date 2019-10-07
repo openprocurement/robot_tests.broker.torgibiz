@@ -62,7 +62,7 @@ def inc(value):
    return int(value) + 1
 
 def get_upload_file_path():
-   return os.path.join(os.getcwd(), 'src', 'robot_tests.broker.torgibiz', 'test.txt')
+   return os.path.join(os.getcwd(), 'src', 'robot_tests.broker.torgibiz', 'LICENSE.txt')
 
 def bid_value(tender_data):
     if 'value' in tender_data['data']:
